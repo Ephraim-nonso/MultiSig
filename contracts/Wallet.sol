@@ -56,9 +56,7 @@ contract Wallet {
         }
     }
 
-    receive() external payable {
-
-    }
+    receive() external payable {}
 
     modifier onlyApprovers() {
         bool allowed = false;
